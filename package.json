@@ -1,0 +1,25 @@
+{
+  "name": "imovies",
+  "version": "1.0.0",
+  "description": "iMovies – Movie Ticket Booking (MERN)",
+  "main": "server/server.js",
+  "scripts": {
+    "install:all": "npm --prefix server install && npm --prefix client install",
+    "build": "npm --prefix client install && npm --prefix client run build && npm --prefix server install",
+    "start": "node server/server.js",
+    "seed": "node server/utils/seed.js",
+    "server": "npm --prefix server run dev",
+    "client": "npm --prefix client run dev"
+  },
+  "keywords": [
+    "mern",
+    "movies",
+    "ticket-booking",
+    "react",
+    "express",
+    "mongodb",
+    "render"
+  ],
+  "author": "Kaushambhi",
+  "license": "ISC"
+}
